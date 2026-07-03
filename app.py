@@ -32,31 +32,31 @@ case_mode = st.sidebar.radio("Pilih input", ["Manual", "Sample Good", "Sample Po
 
 fallback_cases = {
     "Sample Good": {
-        "Age": 35, "Annual_Income": 850000.0, "Month": "January", "Occupation": "Engineer", 
-        "Credit_Mix": "Good", "Payment_of_Min_Amount": "No", "Payment_Behaviour": "High_spent_Large_value_payments", 
-        "Num_Bank_Accounts": 2, "Num_Credit_Card": 2, "Interest_Rate": 5, "Num_of_Loan": 1, 
-        "Delay_from_due_date": 0, "Num_of_Delayed_Payment": 0, "Changed_Credit_Limit": 2.0, 
-        "Num_Credit_Inquiries": 1.0, "Outstanding_Debt": 1500.0, "Credit_Utilization_Ratio": 25.0, 
-        "Total_EMI_per_month": 50.0, "Amount_invested_monthly": 500.0, "Monthly_Balance": 1000.0, 
-        "Type_of_Loan_Count": 1.0, "Type_of_Loan_Has_Not_Specified": 0.0
+        "Age": 49, "Annual_Income": 177723.8, "Monthly_Inhand_Salary": 15038.316666666666, 
+        "Month": "January", "Occupation": "Entrepreneur", "Credit_Mix": "Good", 
+        "Payment_of_Min_Amount": "No", "Payment_Behaviour": "High_spent_Large_value_payments",
+        "Num_Bank_Accounts": 3, "Num_Credit_Card": 4, "Interest_Rate": 1, "Num_of_Loan": 3, 
+        "Delay_from_due_date": -2, "Num_of_Delayed_Payment": 12, "Changed_Credit_Limit": 16.6, 
+        "Num_Credit_Inquiries": 2.0, "Outstanding_Debt": 1292.23, "Credit_Utilization_Ratio": 43.418, 
+        "Total_EMI_per_month": 338.79, "Amount_invested_monthly": 221.92, "Monthly_Balance": 1183.12
     },
     "Sample Poor": {
-        "Age": 21, "Annual_Income": 35000.0, "Month": "January", "Occupation": "_______", 
-        "Credit_Mix": "Bad", "Payment_of_Min_Amount": "Yes", "Payment_Behaviour": "Low_spent_Small_value_payments", 
-        "Num_Bank_Accounts": 7, "Num_Credit_Card": 7, "Interest_Rate": 20, "Num_of_Loan": 7, 
-        "Delay_from_due_date": 90, "Num_of_Delayed_Payment": 15, "Changed_Credit_Limit": 20.0, 
-        "Num_Credit_Inquiries": 10.0, "Outstanding_Debt": 150000.0, "Credit_Utilization_Ratio": 45.0, 
-        "Total_EMI_per_month": 500.0, "Amount_invested_monthly": 10.0, "Monthly_Balance": 10.0, 
-        "Type_of_Loan_Count": 7.0, "Type_of_Loan_Has_Not_Specified": 1.0
+        "Age": 25, "Annual_Income": 33119.82, "Monthly_Inhand_Salary": 3024.985, 
+        "Month": "August", "Occupation": "Developer", "Credit_Mix": "Bad", 
+        "Payment_of_Min_Amount": "Yes", "Payment_Behaviour": "Low_spent_Small_value_payments",
+        "Num_Bank_Accounts": 10, "Num_Credit_Card": 5, "Interest_Rate": 32, "Num_of_Loan": 5, 
+        "Delay_from_due_date": 50, "Num_of_Delayed_Payment": 18, "Changed_Credit_Limit": 15.79, 
+        "Num_Credit_Inquiries": 10.0, "Outstanding_Debt": 2545.0, "Credit_Utilization_Ratio": 33.81, 
+        "Total_EMI_per_month": 111.42, "Amount_invested_monthly": 0.0, "Monthly_Balance": 370.61
     },
     "Sample Standard": {
-        "Age": 28, "Annual_Income": 150000.0, "Month": "January", "Occupation": "Teacher", 
-        "Credit_Mix": "Standard", "Payment_of_Min_Amount": "NM", "Payment_Behaviour": "Low_spent_Medium_value_payments", 
-        "Num_Bank_Accounts": 4, "Num_Credit_Card": 4, "Interest_Rate": 10, "Num_of_Loan": 3, 
-        "Delay_from_due_date": 14, "Num_of_Delayed_Payment": 4, "Changed_Credit_Limit": 10.0, 
-        "Num_Credit_Inquiries": 3.0, "Outstanding_Debt": 5000.0, "Credit_Utilization_Ratio": 30.0, 
-        "Total_EMI_per_month": 150.0, "Amount_invested_monthly": 100.0, "Monthly_Balance": 400.0, 
-        "Type_of_Loan_Count": 3.0, "Type_of_Loan_Has_Not_Specified": 0.0
+        "Age": 8466, "Annual_Income": 100433.58, "Monthly_Inhand_Salary": 8074.465, 
+        "Month": "March", "Occupation": "_______", "Credit_Mix": "Good", 
+        "Payment_of_Min_Amount": "No", "Payment_Behaviour": "Low_spent_Medium_value_payments",
+        "Num_Bank_Accounts": 1, "Num_Credit_Card": 5, "Interest_Rate": 10, "Num_of_Loan": 2, 
+        "Delay_from_due_date": 13, "Num_of_Delayed_Payment": 4, "Changed_Credit_Limit": 12.59, 
+        "Num_Credit_Inquiries": 3.0, "Outstanding_Debt": 1023.93, "Credit_Utilization_Ratio": 33.47, 
+        "Total_EMI_per_month": 100.16, "Amount_invested_monthly": 758.07, "Monthly_Balance": 229.21
     }
 }
 
