@@ -20,7 +20,12 @@ if not MODEL_PATH.exists():
     st.error("Model belum ditemukan. Jalankan train_pipeline.py terlebih dahulu untuk membuat artifacts/best_model.pkl.")
     st.stop()
 
-predictor = CreditScorePredictor()
+@st.cache_resource
+def get_predictor():
+    return CreditScorePredictor()
+
+# Panggil fungsinya
+predictor = get_predictor()
 
 st.sidebar.header("Test Case")
 case_mode = st.sidebar.radio("Pilih input", ["Manual", "Sample Good", "Sample Poor", "Sample Standard"], index=1)
